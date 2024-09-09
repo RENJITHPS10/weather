@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#image{
+    background-image:url(./images/cover1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+.blur-input::placeholder {
+    color: white; 
+}
+
+.degreeh1 {
+    font-size: 100px;
+}
+
+.blurdiv {
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    width: 100%;
+}
+
+.blur-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+    padding: 5px;
+}
+
+.hr {
+    height: 4px;
+    border: none;
+    background-color: white;
+    margin-top: -5px;
+}
+
+hr {
+    height: 4px;
+    background-color: white;
+    border: none;
+}
+
+.tempmax {
+    color: white;
+}
+
+.box {
+    height: 87vh;
+}
+
+@media (max-width:768px) {
+    .degree {
+        margin-bottom: auto;
+    }
+
+    .box {
+        height: auto;
+    }
+}
